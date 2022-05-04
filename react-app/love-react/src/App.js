@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App(props) {
+function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -9,11 +9,6 @@ function App(props) {
         <p>
           Hello Welcome!!
         </p>
-        <ul>
-          {props.lakes.map(lake => (
-            <li>{lake}</li>
-          ))}
-        </ul>
         <a
           className="App-link"
           href="https://reactjs.org"
